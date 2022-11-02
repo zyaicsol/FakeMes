@@ -1,28 +1,35 @@
 {
-  "firstName": "John",
-	"lastName": "Smith",
-	"isAlive": true,
-	"age": 27,
-	"address": {
-		"streetAddress": "21 2nd street",
-		"city": "New York",
-		"state": "NY",
-		"postalCode": "10021-3100"
-	},
-	"phoneNumbers": [
-		{
-			"type": "home",
-			"number": "212 555-1234"
-		},
-		{
-			"type": "office",
-			"number": "646 555-4567"
-		}
-	],
-	"children": [
-		"Catheria",
-		"Thomas",
-		"Trevor"
-	],
-	"sponse": null
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
 }
