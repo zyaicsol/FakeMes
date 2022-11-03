@@ -25,7 +25,10 @@
   
   "Get": {
     "pfno": {
-      "string": {}
+      "string": {
+        "minLength": 20,
+        "maxLength": 20
+      }
     }
   }
 }
