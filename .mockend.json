@@ -1,26 +1,37 @@
 {
-  "Get": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    }
-  },
-  
   "Post": {
-  "cover": {
+  "MOLDING_BAR_CODE": {
     "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
   },
-  "title": {
-    "loremWords": {
-      "minLength": 5,
-      "maxLength": 20
+  "MACHINE_ID": {
+    "int": {
+      "min": 1,
+      "max": 20
       }
-    }
+    },
+  "MACHINE_NO": {
+    "regexp": "[1-9]{5,5}"
+    },
+  "MACHINE_NAME": {
+    "regexp": "[a-z]{1,1}"
+    },
+  "DOTDATEFINSHE": {
+    "boolean": {}
+    },
+  "DOTDATEOK": {
+    "boolean": {}
+    },
+  "BARCODEFINSHE": {
+    "boolean": {}
+    },
+  "BARCODEOK": {
+    "boolean": {}
+    },
+  "GOODMARKFNS": {
+    "boolean": {}
+    },
+  "GOODMARKOK": {
+    "boolean": {}
   },
   
   "Get": {
