@@ -30,7 +30,6 @@
     "MACHINE_ID": {
       "regexp": "[1-9]{1,1}"
     },
-    
     "MACHINE_NO": {
       "regexp": "[1-9]{1,1}"
     },
