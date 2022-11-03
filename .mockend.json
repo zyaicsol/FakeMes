@@ -34,7 +34,34 @@
       "regexp": "[1-9]{1,1}"
     },
     "MACHINE_NAME": {
-      "regexp": "[1-9]{1,1}"
+      "regexp": "[a-z]{1,1}"
+    },
+    "LEFT_RIGHT_MODEL": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "TYRE_SPEC": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "SULFU_BAR_CODE": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "DOTDATE": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "CARVEDYN_1": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "CARVEDYN_2": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "CARVEDYN_3": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "CHECKYN": {
+      "regexp": "[a-z]{1,1}"
+    },
+    "RECIPEVER": {
+      "regexp": "[a-z]{1,1}"
     }
   }
 }
