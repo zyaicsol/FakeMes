@@ -27,12 +27,15 @@
     "MOLDING_BAR_CODE": {
       "regexp": "[a-z]{20,20}"
     },
+    {
     "MACHINE_ID": {
       "int": {
         "min": 1, 
         "max": 10
-      } 
+      }
+    }
     },
+    
     "MACHINE_NO": {
       "regexp": "[1-9]{1,1}"
     },
