@@ -55,16 +55,16 @@
        "boolean": {}
     },
     "CARVEDYN_2": {
-      "regexp": "[a-z]{1,1}"
+      "boolean": {}
     },
     "CARVEDYN_3": {
-      "regexp": "[a-z]{1,1}"
+      "boolean": {}
     },
     "CHECKYN": {
-      "regexp": "[a-z]{1,1}"
+      "boolean": {}
     },
     "RECIPEVER": {
-      "regexp": "[a-z]{1,1}"
+      "int": {"min": 5, "max": 10}
     }
   }
 }
