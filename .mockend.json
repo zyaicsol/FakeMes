@@ -52,7 +52,7 @@
       }
     },
     "CARVEDYN_1": {
-      "regexp": "[a-z]{1,1}"
+      { "boolean": {} }
     },
     "CARVEDYN_2": {
       "regexp": "[a-z]{1,1}"
