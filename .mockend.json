@@ -28,10 +28,10 @@
       "regexp": "[a-z]{20,20}"
     },
     "MACHINE_ID": {
-      "regexp": "[1-9]{1,1}"
+      "regexp": "[1-9]{4,4}"
     },
     "MACHINE_NO": {
-      "regexp": "[1-9]{1,1}"
+      "int": {"min": 5, "max": 10}
     },
     "MACHINE_NAME": {
       "regexp": "[a-z]{1,1}"
